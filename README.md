@@ -9,5 +9,5 @@
 ### Any issues about the protocol or demo source, please consult with the technical support or send emails to zxx@shberrymed.com.
 
 ##3
-###对产品有意向，欢迎访问官网.[www.berry-med.com](www.berry-med.com).
-###Interest in oximeters or other products, welcome to visit [www.shberrymed.com](www.shberrymed.com).
+###对产品有意向，欢迎访问官网.[www.berry-med.com](http://www.berry-med.com/).
+###Interest in oximeters or other products, welcome to visit [http://www.shberrymed.com](www.shberrymed.com).
