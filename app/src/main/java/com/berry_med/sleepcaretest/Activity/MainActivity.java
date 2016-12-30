@@ -211,7 +211,6 @@ public class MainActivity extends AppCompatActivity implements BluetoothUtils.BT
             case R.id.btnEraseRecords:
                 mBtUtils.write(DataParser.CMD_ERASE_RECORDS);
                 break;
-
         }
     }
 

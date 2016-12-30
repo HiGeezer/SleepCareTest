@@ -236,7 +236,8 @@ public class DataParser {
                 mListener.onBuzzStateReceived(pkgData[4]!=0);
                 break;
             case PKG_RECORDS_COUNT:
-                int count = pkgData[4] << 16 + pkgData[5] << 8 + pkgData[6];
+                int count = (pkgData[4] << 16) + (pkgData[5] << 8) + pkgData[6];
+                Log.d(TAG, "ParsePackage: count" + count);
                 mListener.onRecordsCountReceived(count);
                 break;
             case PKG_RECORD_STATE:
