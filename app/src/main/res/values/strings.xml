@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SleepCareTest</string>
+    <string name="str_bluetooth_title">Bluetooth</string>
+    <string name="str_bluetooth_search">Search</string>
+    <string name="str_records_title">Records</string>
+    <string name="str_records_tips">**Tap the button below to fetch the corresponding records.**</string>
+    <string name="str_records_starttime">Start:</string>
+    <string name="str_records_stoptime">Stop:</string>
+    <string name="str_records_spo2">SPO2:</string>
+    <string name="str_records_pulse_rate">Pulse Rate:</string>
+    <string name="str_records_rr">RR:</string>
+    <string name="str_records_acc">ACC:</string>
+    <string name="str_records_erase_records">Erase Records</string>
+    <string name="str_settings_title">Settings</string>
+    <string name="str_settings_buzz">Buzz:</string>
+    <string name="str_settings_record">Record:</string>
+    <string name="str_settings_date_and_time">Date and Time:</string>
+    <string name="str_settings_sync">Sync</string>
+    <string name="str_device_state_title">Device States</string>
+    <string name="str_device_state_battery_level">Battery Level:</string>
+    <string name="str_device_state_date_and_time">Date and Time:</string>
+    <string name="str_device_state_record_state">Record State:</string>
+    <string name="str_device_state_buzz">Buzz :</string>
+    <string name="str_device_info_title">Device Infos</string>
+    <string name="str_device_info_firmware_version">Firmware Version</string>
+    <string name="str_device_info_hardware_version">Hardware Version</string>
+    <string name="str_device_info_memory_size">Memory Size</string>
+</resources>

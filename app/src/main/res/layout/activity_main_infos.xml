@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        style="@style/TextViewParamsTitle"
+        android:text="@string/str_device_info_title"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_gravity="center" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/TextViewParamsTitle"
+            android:text="@string/str_device_info_firmware_version"/>
+        <TextView
+            android:id="@+id/tvFirmwareVer"
+            style="@style/TextViewParamsValue"
+            android:text="--"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/TextViewParamsTitle"
+            android:text="@string/str_device_info_hardware_version"/>
+        <TextView
+            android:id="@+id/tvHardwareVer"
+            style="@style/TextViewParamsValue"
+            android:text="--"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/TextViewParamsTitle"
+            android:text="@string/str_device_info_memory_size"/>
+        <TextView
+            android:id="@+id/tvMemorySize"
+            style="@style/TextViewParamsValue"
+            android:text="--"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

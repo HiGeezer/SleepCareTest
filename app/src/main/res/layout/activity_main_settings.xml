@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        style="@style/TextViewParamsTitle"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="@string/str_settings_title"
+        android:layout_gravity="center" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/TextViewParamsTitle"
+            android:layout_centerVertical="true"
+            android:text="@string/str_settings_buzz"/>
+        <ToggleButton
+            android:id="@+id/tbBuzz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/TextViewParamsTitle"
+            android:layout_centerVertical="true"
+            android:text="@string/str_settings_record"/>
+        <ToggleButton
+            android:id="@+id/tbRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/TextViewParamsTitle"
+            android:layout_centerVertical="true"
+            android:text="@string/str_settings_date_and_time"/>
+        <Button
+            android:id="@+id/btnDateTimeSync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/str_settings_sync"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout>

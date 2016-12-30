@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">睡眠血氧仪测试</string>
+    <string name="str_bluetooth_title">蓝牙</string>
+    <string name="str_bluetooth_search">搜索</string>
+    <string name="str_records_title">记录</string>
+    <string name="str_records_tips">**点击按钮获取相应记录**</string>
+    <string name="str_records_starttime">开始时间：</string>
+    <string name="str_records_stoptime">结束时间：</string>
+    <string name="str_records_spo2">血氧：</string>
+    <string name="str_records_pulse_rate">脉率：</string>
+    <string name="str_records_rr">RR间期：</string>
+    <string name="str_records_acc">加速度计：</string>
+    <string name="str_records_erase_records">擦除记录</string>
+    <string name="str_settings_title">设置</string>
+    <string name="str_settings_buzz">蜂鸣器：</string>
+    <string name="str_settings_record">记录:</string>
+    <string name="str_settings_date_and_time">时间:</string>
+    <string name="str_settings_sync">同步时间</string>
+    <string name="str_device_state_title">设备状态</string>
+    <string name="str_device_state_battery_level">电量:</string>
+    <string name="str_device_state_date_and_time">时间:</string>
+    <string name="str_device_state_record_state">记录状态:</string>
+    <string name="str_device_state_buzz">蜂鸣器状态:</string>
+    <string name="str_device_info_title">设备信息</string>
+    <string name="str_device_info_firmware_version">固件版本</string>
+    <string name="str_device_info_hardware_version">硬件版本</string>
+    <string name="str_device_info_memory_size">存储器大小</string>
+</resources>

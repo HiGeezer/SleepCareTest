@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        style="@style/TextViewParamsTitle"
+        android:text="@string/str_device_state_title"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_gravity="center" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/TextViewParamsTitle"
+            android:text="@string/str_device_state_battery_level"/>
+        <TextView
+            android:id="@+id/tvBatteryLevel"
+            style="@style/TextViewParamsValue"
+            android:text="--"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/TextViewParamsTitle"
+            android:text="@string/str_device_state_date_and_time"/>
+        <TextView
+            android:id="@+id/tvDateAndTime"
+            style="@style/TextViewParamsValue"
+            android:text="--"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/TextViewParamsTitle"
+            android:text="@string/str_device_state_record_state"/>
+        <TextView
+            android:id="@+id/tvRecordState"
+            style="@style/TextViewParamsValue"
+            android:text="--"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/TextViewParamsTitle"
+            android:text="@string/str_device_state_buzz"/>
+        <TextView
+            android:id="@+id/tvBuzzState"
+            style="@style/TextViewParamsValue"
+            android:text="--"/>
+    </RelativeLayout>
+
+</LinearLayout>
