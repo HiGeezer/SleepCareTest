@@ -235,7 +235,7 @@ public class BluetoothUtils{
                 Log.i(TAG,"Bluetooth Connected...");
             } else if (BluetoothLeService.ACTION_GATT_DISCONNECTED.equals(action)) {
                 mBLEService.disconnect();
-                context.unbindService(mServiceConnection);
+                unbindService(context);
 
                 mConnectListener.onDisconnected();
                 chSend=null;
